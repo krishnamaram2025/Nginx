@@ -1,9 +1,11 @@
-# Nginx installation and Set Up
+* Step 1: Login to nginx server
+  
+* Step 2: Nginx installation and Set Up
 ```
 sudo yum install nginx -y
 ```
-* Modify Nginx config
-  ```
+* Step 3: Modify Nginx config
+```
 vi /etc/nginx/nginx.conf
 server {
         listen       80;
@@ -14,7 +16,7 @@ server {
         index  index.html index.htm;
         }
 ```
-* To Fix the Forbidden issue
+* Step 4: To Fix the Forbidden issue
 ```
 sudo setsebool -P httpd_enable_homedirs 1
 sudo setenforce 0
