@@ -16,6 +16,7 @@ server {
         root         /usr/share/nginx/html/;
         index  index.html index.htm;
         }
+}
 ```
 * Step 4: To Fix the Forbidden issue
 ```
