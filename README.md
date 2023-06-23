@@ -2,6 +2,7 @@
   
 * Step 2: Nginx installation and Set Up
 ```
+sudo yum install epel-release
 sudo yum install nginx -y
 ```
 * Step 3: Modify Nginx config
