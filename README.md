@@ -11,7 +11,7 @@ sudo vi /etc/nginx/nginx.conf
 server {
         listen       80;
         listen       [::]:80;
-        server_name  34.232.68.3;
+        server_name  _;
        location / {
         root         /usr/share/nginx/html/;
         index  index.html index.htm;
