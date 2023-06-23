@@ -24,4 +24,5 @@ sudo setsebool -P httpd_enable_homedirs 1
 sudo setenforce 0
 sudo systemctl restart nginx
 sudo systemctl daemon-reload
+sudo systemctl status mginx
 ```
