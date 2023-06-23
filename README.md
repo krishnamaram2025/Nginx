@@ -7,7 +7,7 @@ sudo yum install nginx -y
 ```
 * Step 3: Modify Nginx config
 ```
-vi /etc/nginx/nginx.conf
+sudo vi /etc/nginx/nginx.conf
 server {
         listen       80;
         listen       [::]:80;
